@@ -1,0 +1,270 @@
+listing_id,neighbourhood_cleansed,property_type,room_type,host_is_superhost,price
+897063,Ward 115,Entire rental unit,Entire home/apt,false,799.0
+1075794,Ward 115,Entire rental unit,Entire home/apt,false,1260.0
+1558929,Ward 115,Entire rental unit,Entire home/apt,true,1164.0
+742345,Ward 115,Entire rental unit,Entire home/apt,false,579.0
+3024048,Ward 77,Entire home,Entire home/apt,false,
+2378969,Ward 54,Entire guest suite,Entire home/apt,true,2593.0
+2401492,Ward 61,Entire home,Entire home/apt,true,2308.0
+3756239,Ward 54,Entire place,Entire home/apt,false,605.0
+4499002,Ward 115,Entire rental unit,Entire home/apt,true,1252.0
+4569933,Ward 115,Entire rental unit,Entire home/apt,true,1194.0
+4725948,Ward 61,Entire home,Entire home/apt,false,1700.0
+5425015,Ward 54,Private room in villa,Private room,false,657.0
+857701,Ward 61,Entire home,Entire home/apt,false,2886.0
+200211,Ward 54,Entire condo,Entire home/apt,true,994.0
+1049961,Ward 115,Entire rental unit,Entire home/apt,false,1830.0
+1333749,Ward 54,Entire rental unit,Entire home/apt,true,2438.0
+1923621,Ward 115,Entire rental unit,Entire home/apt,true,798.0
+1992333,Ward 23,Entire rental unit,Entire home/apt,false,
+2053265,Ward 115,Entire rental unit,Entire home/apt,true,605.0
+2080336,Ward 54,Entire rental unit,Entire home/apt,true,723.0
+3161617,Ward 61,Entire villa,Entire home/apt,true,4000.0
+2179981,Ward 54,Entire rental unit,Entire home/apt,false,1683.0
+3259518,Ward 55,Entire condo,Entire home/apt,true,1025.0
+3341621,Ward 115,Entire condo,Entire home/apt,true,1885.0
+2321768,Ward 62,Entire home,Entire home/apt,true,2364.0
+2347927,Ward 115,Private room in townhouse,Private room,false,460.0
+2442838,Ward 23,Entire rental unit,Entire home/apt,true,1595.0
+4467695,Ward 115,Entire rental unit,Entire home/apt,true,1350.0
+4301603,Ward 23,Entire home,Entire home/apt,true,2486.0
+4341842,Ward 58,Entire guest suite,Entire home/apt,true,480.0
+4576887,Ward 61,Private room in bed and breakfast,Private room,false,1853.0
+4937865,Ward 77,Entire rental unit,Entire home/apt,false,1419.0
+4703470,Ward 54,Entire rental unit,Entire home/apt,true,1679.0
+5017023,Ward 61,Entire rental unit,Entire home/apt,false,3978.0
+5273464,Ward 54,Entire rental unit,Entire home/apt,false,
+893053,Ward 115,Entire rental unit,Entire home/apt,false,1674.0
+1182416,Ward 115,Entire condo,Entire home/apt,true,1260.0
+1194568,Ward 54,Entire rental unit,Entire home/apt,true,1094.0
+1595205,Ward 64,Entire rental unit,Entire home/apt,true,1814.0
+1690757,Ward 77,Entire guest suite,Entire home/apt,true,594.0
+2712487,Ward 77,Entire rental unit,Entire home/apt,true,695.0
+2735215,Ward 61,Entire home,Entire home/apt,true,2550.0
+2845124,Ward 64,Entire home,Entire home/apt,false,1530.0
+3358490,Ward 77,Entire rental unit,Entire home/apt,true,898.0
+2402624,Ward 23,Entire rental unit,Entire home/apt,true,1595.0
+2446152,Ward 77,Private room in home,Private room,false,472.0
+2646412,Ward 54,Entire guest suite,Entire home/apt,true,1836.0
+4052806,Ward 74,Entire guesthouse,Entire home/apt,false,797.0
+4507430,Ward 54,Private room in home,Private room,true,755.0
+4523176,Ward 77,Entire rental unit,Entire home/apt,true,875.0
+4561312,Ward 54,Entire condo,Entire home/apt,true,6321.0
+4591712,Ward 54,Entire guest suite,Entire home/apt,true,1158.0
+4830932,Ward 54,Private room in home,Private room,true,564.0
+4882510,Ward 64,Entire cottage,Entire home/apt,true,3023.0
+4888362,Ward 77,Entire cottage,Entire home/apt,true,503.0
+4940234,Ward 115,Entire guest suite,Entire home/apt,false,573.0
+5316108,Ward 54,Entire rental unit,Entire home/apt,true,3358.0
+5269233,Ward 74,Entire villa,Entire home/apt,false,12412.0
+875916,Ward 74,Entire rental unit,Entire home/apt,false,2315.0
+1101917,Ward 62,Entire villa,Entire home/apt,true,5482.0
+1241945,Ward 54,Entire villa,Entire home/apt,true,8790.0
+1595157,Ward 61,Entire cottage,Entire home/apt,true,1113.0
+659419,Ward 4,Entire serviced apartment,Entire home/apt,false,1777.0
+1834106,Ward 115,Entire home,Entire home/apt,true,
+1945888,Ward 54,Entire rental unit,Entire home/apt,true,1080.0
+3014209,Ward 64,Entire cottage,Entire home/apt,true,1705.0
+3201567,Ward 4,Private room in guest suite,Private room,false,713.0
+4543033,Ward 54,Entire rental unit,Entire home/apt,true,881.0
+4820554,Ward 77,Entire rental unit,Entire home/apt,true,2281.0
+4822336,Ward 77,Entire home,Entire home/apt,true,5731.0
+4875598,Ward 23,Entire rental unit,Entire home/apt,false,1422.0
+5401119,Ward 69,Entire condo,Entire home/apt,true,2158.0
+5228522,Ward 59,Entire home,Entire home/apt,true,6026.0
+1234685,Ward 54,Entire rental unit,Entire home/apt,false,2158.0
+1331613,Ward 58,Entire guest suite,Entire home/apt,true,1286.0
+2000857,Ward 54,Entire rental unit,Entire home/apt,false,
+3221642,Ward 64,Private room in home,Private room,true,380.0
+3735272,Ward 62,Entire home,Entire home/apt,false,2000.0
+3936849,Ward 115,Entire rental unit,Entire home/apt,true,986.0
+2635024,Ward 77,Entire condo,Entire home/apt,false,990.0
+4462303,Ward 64,Entire home,Entire home/apt,false,3060.0
+4578856,Ward 77,Entire home,Entire home/apt,false,2902.0
+4660086,Ward 54,Entire home,Entire home/apt,false,22343.0
+4900705,Ward 71,Entire home,Entire home/apt,true,7858.0
+5011028,Ward 77,Private room in home,Private room,true,774.0
+5034922,Ward 64,Entire condo,Entire home/apt,true,1850.0
+1739061,Ward 77,Entire guest suite,Entire home/apt,true,523.0
+731764,Ward 54,Entire rental unit,Entire home/apt,true,2361.0
+1795805,Ward 57,Entire rental unit,Entire home/apt,false,704.0
+771176,Ward 77,Entire rental unit,Entire home/apt,true,870.0
+1948161,Ward 77,Entire rental unit,Entire home/apt,true,950.0
+3047690,Ward 74,Entire cottage,Entire home/apt,true,2300.0
+2112960,Ward 61,Entire home,Entire home/apt,false,12995.0
+2185497,Ward 115,Entire rental unit,Entire home/apt,true,836.0
+3799507,Ward 77,Entire bungalow,Entire home/apt,true,1624.0
+4014789,Ward 115,Entire condo,Entire home/apt,true,
+4417420,Ward 54,Entire rental unit,Entire home/apt,true,1250.0
+4201424,Ward 57,Private room in cottage,Private room,true,381.0
+4214096,Ward 54,Entire rental unit,Entire home/apt,false,5217.0
+4887141,Ward 83,Entire rental unit,Entire home/apt,false,720.0
+5323318,Ward 64,Private room in guest suite,Private room,true,650.0
+282606,Ward 59,Private room in rental unit,Private room,false,366.0
+1723346,Ward 54,Entire rental unit,Entire home/apt,true,923.0
+2878153,Ward 74,Entire home,Entire home/apt,false,1250.0
+3015300,Ward 61,Entire home,Entire home/apt,true,5000.0
+2286781,Ward 54,Entire rental unit,Entire home/apt,false,1943.0
+2350003,Ward 77,Entire home,Entire home/apt,true,2854.0
+2370212,Ward 115,Entire loft,Entire home/apt,true,1209.0
+3677171,Ward 77,Private room in home,Private room,false,550.0
+2655966,Ward 54,Entire guest suite,Entire home/apt,true,5360.0
+4082106,Ward 107,Entire rental unit,Entire home/apt,true,1800.0
+4421175,Ward 64,Entire rental unit,Entire home/apt,false,2700.0
+4435697,Ward 54,Entire rental unit,Entire home/apt,true,1950.0
+4458992,Ward 115,Entire loft,Entire home/apt,false,1055.0
+4274670,Ward 61,Entire home,Entire home/apt,true,550.0
+4281439,Ward 58,Entire home,Entire home/apt,true,604.0
+5330276,Ward 4,Entire guest suite,Entire home/apt,false,1033.0
+5436436,Ward 69,Entire rental unit,Entire home/apt,false,
+810042,Ward 64,Entire cottage,Entire home/apt,true,1526.0
+900141,Ward 55,Entire cottage,Entire home/apt,false,1219.0
+218269,Ward 115,Entire cottage,Entire home/apt,true,740.0
+731882,Ward 115,Entire condo,Entire home/apt,true,1620.0
+768582,Ward 54,Entire rental unit,Entire home/apt,false,1071.0
+3318572,Ward 77,Entire condo,Entire home/apt,true,1062.0
+2252203,Ward 54,Entire home,Entire home/apt,true,7715.0
+3749105,Ward 115,Entire condo,Entire home/apt,true,
+3773489,Ward 54,Entire rental unit,Entire home/apt,false,1385.0
+3789150,Ward 23,Entire home,Entire home/apt,true,2562.0
+2561893,Ward 54,Entire rental unit,Entire home/apt,true,10572.0
+2594794,Ward 115,Entire villa,Entire home/apt,false,3090.0
+4062263,Ward 23,Entire cottage,Entire home/apt,true,2093.0
+4237546,Ward 61,Entire home,Entire home/apt,false,4991.0
+4260343,Ward 115,Entire rental unit,Entire home/apt,false,848.0
+4560861,Ward 54,Private room in home,Private room,false,1034.0
+4851293,Ward 113,Entire home,Entire home/apt,true,2380.0
+4858427,Ward 77,Entire guest suite,Entire home/apt,true,1021.0
+4646142,Ward 115,Entire rental unit,Entire home/apt,false,1212.0
+4954662,Ward 53,Private room in home,Private room,false,1105.0
+5011026,Ward 77,Private room in home,Private room,true,885.0
+19271,Ward 59,Entire guest suite,Entire home/apt,true,700.0
+471729,Ward 61,Entire cottage,Entire home/apt,false,937.0
+653488,Ward 115,Private room in home,Private room,false,1625.0
+1871897,Ward 1,Entire guest suite,Entire home/apt,true,675.0
+2166889,Ward 54,Entire villa,Entire home/apt,true,6329.0
+3267712,Ward 64,Entire cottage,Entire home/apt,true,1454.0
+2309049,Ward 54,Entire home,Entire home/apt,true,4797.0
+2577347,Ward 61,Entire cottage,Entire home/apt,false,6512.0
+4045171,Ward 115,Entire rental unit,Entire home/apt,false,4018.0
+4267384,Ward 61,Entire home,Entire home/apt,true,7100.0
+4390786,Ward 77,Entire place,Entire home/apt,true,2115.0
+4827735,Ward 77,Entire rental unit,Entire home/apt,false,2328.0
+4947360,Ward 59,Entire guest suite,Entire home/apt,true,925.0
+4711190,Ward 115,Entire rental unit,Entire home/apt,true,993.0
+4993364,Ward 61,Entire home,Entire home/apt,false,4800.0
+1945481,Ward 57,Entire townhouse,Entire home/apt,false,1500.0
+2015634,Ward 54,Entire villa,Entire home/apt,false,9900.0
+3589058,Ward 77,Entire townhouse,Entire home/apt,false,1277.0
+3740207,Ward 74,Entire cottage,Entire home/apt,true,950.0
+2468991,Ward 77,Entire home,Entire home/apt,true,2479.0
+4043468,Ward 74,Entire cottage,Entire home/apt,false,3650.0
+4135729,Ward 71,Private room in rental unit,Private room,true,990.0
+4228894,Ward 59,Entire home,Entire home/apt,false,6500.0
+4274759,Ward 23,Entire guest suite,Entire home/apt,false,1035.0
+4560984,Ward 115,Entire rental unit,Entire home/apt,false,819.0
+5062830,Ward 70,Private room in guesthouse,Private room,false,1240.0
+4761092,Ward 59,Entire rental unit,Entire home/apt,true,970.0
+5148889,Ward 54,Entire villa,Entire home/apt,true,18386.0
+5254873,Ward 64,Entire guest suite,Entire home/apt,true,415.0
+36347,Ward 115,Entire loft,Entire home/apt,false,1022.0
+122455,Ward 115,Entire home,Entire home/apt,false,3897.0
+1058642,Ward 54,Entire guesthouse,Entire home/apt,true,2302.0
+473856,Ward 115,Entire rental unit,Entire home/apt,true,2172.0
+1666477,Ward 59,Entire guest suite,Entire home/apt,true,705.0
+1930799,Ward 64,Entire loft,Entire home/apt,true,1500.0
+2765720,Ward 74,Entire home,Entire home/apt,false,3104.0
+3607015,Ward 54,Private room in rental unit,Private room,true,619.0
+3969690,Ward 55,Entire loft,Entire home/apt,true,880.0
+4090938,Ward 54,Entire rental unit,Entire home/apt,true,1672.0
+4438981,Ward 54,Entire rental unit,Entire home/apt,true,2226.0
+4248690,Ward 23,Entire rental unit,Entire home/apt,true,1008.0
+4267198,Ward 23,Private room in home,Private room,false,975.0
+4569367,Ward 77,Entire rental unit,Entire home/apt,true,
+4933142,Ward 115,Entire rental unit,Entire home/apt,true,845.0
+5255446,Ward 115,Entire townhouse,Entire home/apt,true,1695.0
+286894,Ward 54,Entire rental unit,Entire home/apt,true,1143.0
+1808811,Ward 77,Private room in condo,Private room,false,1180.0
+1904760,Ward 61,Entire villa,Entire home/apt,true,1511.0
+2080138,Ward 115,Entire loft,Entire home/apt,false,2630.0
+3082554,Ward 54,Entire home,Entire home/apt,true,3273.0
+2147358,Ward 54,Entire rental unit,Entire home/apt,true,1219.0
+2224057,Ward 77,Entire guest suite,Entire home/apt,true,845.0
+2442614,Ward 64,Entire guesthouse,Entire home/apt,true,2020.0
+2529479,Ward 71,Entire guest suite,Entire home/apt,true,1400.0
+4321498,Ward 62,Entire rental unit,Entire home/apt,true,906.0
+4619681,Ward 73,Entire townhouse,Entire home/apt,false,600.0
+4629835,Ward 115,Entire rental unit,Entire home/apt,false,863.0
+4860778,Ward 23,Private room in home,Private room,true,723.0
+5107995,Ward 77,Entire home,Entire home/apt,true,2633.0
+5147999,Ward 61,Entire guest suite,Entire home/apt,true,755.0
+5201253,Ward 74,Entire home,Entire home/apt,true,7000.0
+5435586,Ward 74,Entire rental unit,Entire home/apt,true,2094.0
+5259123,Ward 84,Entire guest suite,Entire home/apt,true,630.0
+282586,Ward 54,Entire cottage,Entire home/apt,true,3842.0
+1626659,Ward 23,Private room in guesthouse,Private room,true,759.0
+563459,Ward 115,Entire home,Entire home/apt,false,890.0
+1653819,Ward 115,Entire rental unit,Entire home/apt,false,1000.0
+1684882,Ward 57,Entire loft,Entire home/apt,true,3702.0
+660099,Ward 4,Entire serviced apartment,Entire home/apt,false,729.0
+2895692,Ward 115,Entire condo,Entire home/apt,false,
+4254464,Ward 62,Entire home,Entire home/apt,false,8455.0
+4340008,Ward 54,Entire condo,Entire home/apt,false,1679.0
+4553566,Ward 58,Private room in rental unit,Private room,false,429.0
+4740365,Ward 74,Entire home,Entire home/apt,true,2829.0
+5442946,Ward 77,Entire guest suite,Entire home/apt,true,907.0
+5461009,Ward 61,Entire rental unit,Entire home/apt,true,519.0
+811611,Ward 77,Entire guest suite,Entire home/apt,true,
+133339,Ward 77,Private room in cottage,Private room,false,1342.0
+400107,Ward 54,Entire villa,Entire home/apt,true,10858.0
+469356,Ward 71,Entire cottage,Entire home/apt,false,4850.0
+606963,Ward 64,Private room in guesthouse,Private room,true,1408.0
+1724734,Ward 77,Entire loft,Entire home/apt,true,4251.0
+1852938,Ward 115,Entire rental unit,Entire home/apt,false,3832.0
+1863057,Ward 115,Entire home,Entire home/apt,true,7338.0
+2864973,Ward 61,Entire rental unit,Entire home/apt,false,2715.0
+3057403,Ward 54,Entire rental unit,Entire home/apt,true,2532.0
+3277357,Ward 77,Entire rental unit,Entire home/apt,false,1388.0
+3790952,Ward 64,Entire guest suite,Entire home/apt,false,737.0
+3855078,Ward 3,Entire guesthouse,Entire home/apt,true,463.0
+2522313,Ward 115,Entire rental unit,Entire home/apt,false,820.0
+3973020,Ward 61,Entire villa,Entire home/apt,true,5355.0
+3973830,Ward 61,Entire villa,Entire home/apt,true,4099.0
+4080460,Ward 54,Private room in rental unit,Private room,true,682.0
+4125464,Ward 77,Entire home,Entire home/apt,true,10527.0
+4353509,Ward 71,Entire home,Entire home/apt,false,1989.0
+4591898,Ward 55,Entire home,Entire home/apt,true,
+4890833,Ward 61,Entire rental unit,Entire home/apt,false,1425.0
+5065638,Ward 115,Entire townhouse,Entire home/apt,true,4782.0
+5316070,Ward 54,Entire home,Entire home/apt,true,18615.0
+842387,Ward 77,Private room in home,Private room,true,697.0
+357793,Ward 115,Entire rental unit,Entire home/apt,true,2000.0
+518837,Ward 61,Entire rental unit,Entire home/apt,true,975.0
+3033914,Ward 54,Entire home,Entire home/apt,true,23643.0
+2229515,Ward 115,Entire rental unit,Entire home/apt,false,1000.0
+3338147,Ward 77,Private room in rental unit,Private room,false,467.0
+2598290,Ward 62,Entire guest suite,Entire home/apt,false,932.0
+4066138,Ward 54,Entire rental unit,Entire home/apt,false,
+4462435,Ward 115,Entire condo,Entire home/apt,true,912.0
+4309526,Ward 61,Entire rental unit,Entire home/apt,false,1388.0
+4352782,Ward 61,Entire home,Entire home/apt,true,2655.0
+516875,Ward 115,Entire rental unit,Entire home/apt,false,1980.0
+668544,Ward 74,Entire rental unit,Entire home/apt,false,5152.0
+690609,Ward 57,Entire home,Entire home/apt,false,1235.0
+1773094,Ward 115,Entire villa,Entire home/apt,true,12010.0
+2051863,Ward 54,Entire guest suite,Entire home/apt,true,1947.0
+3030455,Ward 54,Entire rental unit,Entire home/apt,true,2600.0
+2080372,Ward 115,Entire loft,Entire home/apt,false,1044.0
+3096547,Ward 54,Entire rental unit,Entire home/apt,true,2643.0
+3265646,Ward 62,Entire guesthouse,Entire home/apt,true,1650.0
+3911634,Ward 77,Entire rental unit,Entire home/apt,true,1858.0
+3975291,Ward 54,Entire rental unit,Entire home/apt,true,1373.0
+4197434,Ward 62,Tiny home,Entire home/apt,true,1105.0
+4458181,Ward 61,Entire rental unit,Entire home/apt,true,1439.0
+4526096,Ward 54,Private room in home,Private room,true,729.0
+4393363,Ward 115,Entire rental unit,Entire home/apt,false,708.0
+5032552,Ward 77,Entire loft,Entire home/apt,false,1215.0
+5310718,Ward 54,Entire rental unit,Entire home/apt,false,2298.0
+5137968,Ward 61,Entire rental unit,Entire home/apt,true,1085.0
+5157425,Ward 74,Entire rental unit,Entire home/apt,false,
+5439441,Ward 69,Entire rental unit,Entire home/apt,true,1178.0
