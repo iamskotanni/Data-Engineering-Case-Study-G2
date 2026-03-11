@@ -1,11 +1,12 @@
-/* ========================================================================
-  
-  Phase: Data Transformation (DDL & DML)
-  Description: This script transforms the flat CLEANED_DATA_V2.csv
-               into a Kimball Dimensional Model (Star Schema).
-======================================================================== */
 
--- PART 1: DDL (Data Definition Language) - Building the Racks
+-- 1. CLEAR EXISTING TABLES (Ensures a fresh run since we rerun the script multiple times during development)
+
+DROP TABLE IF EXISTS fact_reviews;
+DROP TABLE IF EXISTS fact_weather;
+DROP TABLE IF EXISTS dim_date;
+DROP TABLE IF EXISTS dim_listing;
+
+-- 2. CREATE DIMENSION TABLES (The "Lookups")
 
 CREATE TABLE dim_listing (
    listing_id BIGINT PRIMARY KEY,
@@ -20,6 +21,9 @@ CREATE TABLE dim_date (
    day_of_week VARCHAR,
    is_weekend BOOLEAN
 );
+
+-- 3. CREATE FACT TABLES 
+
 CREATE TABLE fact_weather (
    date_key DATE PRIMARY KEY,
    temp_max DOUBLE,
@@ -35,19 +39,21 @@ CREATE TABLE fact_reviews (
    review_id BIGINT PRIMARY KEY,
    listing_id BIGINT,
    date_key DATE,
-   sentiment_stars DOUBLE
+   sentiment_stars DOUBLE,
+   weather_category VARCHAR,
+   weather_sentence VARCHAR,
+   weather_sentiment_score DOUBLE
 );
 
--- PART 2: DML (Data Manipulation Language) - Loading the Data
--- DuckDB reads the 'staging_table' directly from our Python environment
+-- 4. POPULATE DIMENSION TABLES
 
 INSERT INTO dim_listing
 SELECT DISTINCT
    CAST(listing_id AS BIGINT),
-   neighbourhood_cleansed,
-   property_type,
-   room_type,
-   CASE WHEN host_is_superhost = 't' THEN TRUE ELSE FALSE END,
+   CAST(neighbourhood_cleansed AS VARCHAR),
+   CAST(property_type AS VARCHAR),
+   CAST(room_type AS VARCHAR),
+   CAST(host_is_superhost AS BOOLEAN),
    CAST(price AS DOUBLE)
 FROM staging_table
 WHERE listing_id IS NOT NULL;
@@ -58,9 +64,12 @@ SELECT DISTINCT
    CASE WHEN DAYOFWEEK(CAST(date AS DATE)) IN (0, 6) THEN TRUE ELSE FALSE END AS is_weekend
 FROM staging_table
 WHERE date IS NOT NULL;
+
+-- 5. POPULATE FACT TABLES
+
 INSERT INTO fact_weather
 SELECT DISTINCT
-   CAST(date AS DATE),
+   CAST(date AS DATE) AS date_key,
    CAST(temp_max AS DOUBLE),
    CAST(temp_min AS DOUBLE),
    CAST(apparent_temp_max AS DOUBLE),
@@ -75,7 +84,10 @@ INSERT INTO fact_reviews
 SELECT DISTINCT
    CAST(id_x AS BIGINT) AS review_id,
    CAST(listing_id AS BIGINT),
-   CAST(date AS DATE),
-   CAST(sentiment_stars AS DOUBLE)
+   CAST(date AS DATE) AS date_key,
+   CAST(sentiment_stars AS DOUBLE),
+   CAST(weather_category AS VARCHAR),
+   CAST(weather_sentence AS VARCHAR),
+   CAST(weather_sentiment_score AS DOUBLE)
 FROM staging_table
 WHERE id_x IS NOT NULL;
