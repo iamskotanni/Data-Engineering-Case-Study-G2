@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS fact_weather;
 DROP TABLE IF EXISTS dim_date;
 DROP TABLE IF EXISTS dim_listing;
 
--- 2. CREATE DIMENSION TABLES (The "Lookups")
+-- 2. CREATE DIMENSION TABLES 
 
 CREATE TABLE dim_listing (
    listing_id BIGINT PRIMARY KEY,

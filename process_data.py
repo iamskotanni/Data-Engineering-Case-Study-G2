@@ -8,7 +8,7 @@ if 'price' in df.columns:
    df['price'] = df['price'].astype(str).str.replace('$', '', regex=False).str.replace(',', '', regex=False)
    df['price'] = pd.to_numeric(df['price'], errors='coerce')
 print("3. Downloading and initializing the Hugging Face AI Model...")
-# Using your exact working parameters + top_k=None for granular probabilities
+# Using exact working parameters + top_k=None for granular probabilities (to ensure ratings are not whole numbers)
 sentiment_pipeline = pipeline(
    "sentiment-analysis",
    model="nlptown/bert-base-multilingual-uncased-sentiment",
@@ -23,7 +23,7 @@ patterns = {
    'Heat': r'\b(hot|hotter|hottest|heat|heating|heatwave|warmer|warmest|humid|humidity|sweat|sweating|sweaty|boil|boiling|stifling)\b',
    'Cold': r'\b(cold|colder|coldest|freeze|freezing|froze|frozen|chill|chilly|ice|icy|winter|wintery|drafty)\b'
 }
-# --- THE PROBABILITY MATH FUNCTION ---
+# THE PROBABILITY MATH FUNCTION 
 def calculate_granular_score(ai_results):
    """Takes the 5 probabilities from the AI and calculates a precise decimal score."""
    expected_stars = 0.0
@@ -50,18 +50,18 @@ for index, row in df.iterrows():
        weather_scores.append(None)
        continue
    text_lower = text_str.lower()
-   # --- 1. OVERALL SENTIMENT (Granular) ---
+   #  1. OVERALL SENTIMENT (Granular) 
    try:
        overall_res = sentiment_pipeline(text_str)[0]
        overall_score = calculate_granular_score(overall_res)
    except Exception:
        overall_score = None
    overall_scores.append(overall_score)
-   # --- 2. ISOLATED WEATHER SENTIMENT (Granular) ---
+   # 2. ISOLATED WEATHER SENTIMENT (Granular) 
    found_cat = None
    found_sent = None
    weather_score = None
-   # Fast check: does a weather word exist anywhere in the text?
+   # Fast check: does a weather word we fkagged exist anywhere in the text?
    if any(re.search(pat, text_lower) for pat in patterns.values()):
        # Split the review into individual sentences
        sentences = re.split(r'(?<=[.!?])\s+', text_str)
@@ -93,7 +93,7 @@ df['weather_category'] = weather_categories
 df['weather_sentence'] = weather_sentences
 df['weather_sentiment_score'] = weather_scores
 print("6. Throwing away the junk columns...")
-# Note: I added the 3 new weather columns to your "keepers" list!
+# Note: added the 3 new weather columns to keepers list since the last edit.
 columns_to_keep = [
    'listing_id', 'id_x', 'date', 'temp_max', 'temp_min', 'apparent_temp_max',
    'apparent_temp_min', 'rain', 'wind_speed', 'wind_gust', 'humidity',
@@ -106,4 +106,4 @@ df_clean = df[actual_columns_to_keep]
 df_clean = df_clean.dropna(subset=['sentiment_stars'])
 print("7. Saving the highly accurate, granular dataset...")
 df_clean.to_csv("CLEANED_DATA_V2.csv", index=False)
-print("SUCCESS! CLEANED_DATA_V2.csv is ready for the database.")
+print("CLEANED_DATA_V2.csv is ready for the database.")
