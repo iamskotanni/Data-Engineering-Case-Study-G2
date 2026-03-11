@@ -24,12 +24,12 @@ Phase 2: Relational Data Modeling
 
 Scripts: run_sql.py (Execution Engine) & transformations.sql (DDL/DML Logic)
 Input: CLEANED_DATA_V2.csv
-
 Output: 4x Star Schema CSVs (dim_listing.csv, dim_date.csv, fact_weather.csv, fact_reviews.csv)
 
 Instead of feeding a flat file into Power BI, we used DuckDB as an in-memory SQL engine to enforce strict data governance and build a multi-fact Star Schema (Fact Constellation):
 • Data Integrity: Applied IS NOT NULL constraints to ensure referential integrity (dropping orphaned reviews) and used SELECT DISTINCT to handle deduplication.
 • Schema Generation: The Python engine executes the SQL transformations, automatically generating the finalized dimension and fact tables required for our BI data model.
+
 Phase 3: The Final Artefacts (Power BI Import)
 The output of the pipeline consists of four highly optimized CSV files that serve as the foundation for our Power BI dashboard:
 
